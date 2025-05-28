@@ -1,11 +1,11 @@
 import { useState, useEffect } from 'react'
-import { supabase } from '../lib/supabase'
+// import { supabase } from '../lib/supabase'
 import { useAuth } from '../contexts/AuthContext'
 import { Link } from 'react-router-dom'
 import { 
   ArrowUpIcon, 
-  ArrowDownIcon,
-  ChartBarIcon,
+//   ArrowDownIcon,
+//   ChartBarIcon,
   UserIcon,
   EnvelopeIcon,
   PhoneIcon,
@@ -111,7 +111,7 @@ const Dashboard = () => {
   // Using _ prefix to indicate these variables are intentionally unused for now
   const [_loading, setLoading] = useState(true)
   const [leads] = useState(mockLeads)
-  const { user } = useAuth()
+//   const { user } = useAuth()
 
   useEffect(() => {
     const fetchData = async () => {

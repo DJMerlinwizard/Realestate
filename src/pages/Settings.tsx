@@ -395,7 +395,7 @@ const Settings = () => {
                           />
                         </div>
                         <p className="mt-2 text-sm text-gray-500">
-                          You can use placeholders like {{username}}, {{topic}}, {{location}}, and {{specialties}}.
+//                           You can use placeholders like {{username}}, {{topic}}, {{location}}, and {{specialties}}.
                         </p>
                       </div>
                     )}
